@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View, SafeAreaView, TextInput } from 'react-native';
+import { StyleSheet, Text, View, SafeAreaView, TextInput, Button} from 'react-native';
 
 export default function App() {
   const [start_text, onChangeNumber] = React.useState('');
