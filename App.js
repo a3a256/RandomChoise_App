@@ -11,7 +11,7 @@ export default function App() {
     Alert.alert(arr);
   }
   return (
-    <SafeAreaView>
+    <React.Fragment>
       <TextInput
         style = {styles.input}
         onChangeText={(value) => onChangeNumber(value)}
@@ -21,7 +21,7 @@ export default function App() {
       </Button>
       <Text>Hello {start_text}</Text>
       <StatusBar style="auto" />
-    </SafeAreaView>
+    </React.Fragment>
   );
 }
 
