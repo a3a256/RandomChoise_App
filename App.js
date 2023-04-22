@@ -30,15 +30,13 @@ const styles = StyleSheet.create({
     height: 50,
     margin: 12,
     borderWidth: 1,
-    padding: 10,
-    top: 100
+    padding: 10
   }
 });
 
 const st_button = StyleSheet.create({
   button: {
     height: 50,
-    padding: 10,
-    top: 150
+    padding: 10
   }
 });
