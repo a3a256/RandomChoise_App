@@ -6,9 +6,10 @@ export default function App() {
   const [start_text, onChangeNumber] = React.useState('');
   var arr = [];
   const show_res = () => {
+    // Alert.alert(start_text);
     arr.push(start_text);
     onChangeNumber('');
-    Alert.alert(arr);
+    Alert.alert(start_text);
   }
   return (
     <React.Fragment>
